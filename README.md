@@ -18,4 +18,3 @@
  | Quick-Union | N          | N+    | N   | 
 
 
-   - 
