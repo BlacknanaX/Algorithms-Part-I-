@@ -11,6 +11,10 @@
    - Modify quick-union to avoid tall trees (therefore no item will be too far away from the root).
    - Keep track of size of each tree (number of objects).
    - Balance by linking root of smaller tree to root of larger tree.
+   - **Running time:**
+     - Find: takes time proportional to depth of p and q.
+     - Union: takes constant time, given roots.
+     - Depth of any node x is at most lg N.
 
  | Algorithms  | Initialize | Union | Find|
  |-------------|------------|-------|-----|
